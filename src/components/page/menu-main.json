@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_menu_mains",
+  "info": {
+    "displayName": "Menu",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    },
+    "SubMenu": {
+      "displayName": "SubMenu",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.sub-menu"
+    }
+  }
+}
